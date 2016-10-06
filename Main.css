@@ -164,9 +164,9 @@ a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, 
 }
 .btn {
     background-color: #1b2836;
-    border: 0px;
-    border-radius: 0;
-    -moz-border-radius: 0;
+    border: 1px solid #1b2836;
+    border-radius: 3.5px;
+    -moz-border-radius: 3.5px;
     color: #fff;
 }
 .btn:hover {
@@ -175,9 +175,9 @@ a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, 
 }
 .btn:hover {
     background-color: #243447;
-    border: 0px;
-    border-radius: 0;
-    -moz-border-radius: 0;
+    border: 1px solid #243447;
+    border-radius: 3.5px;
+    -moz-border-radius: 3.5px;
     color: #fff;
 }
 .ProfileSidebar .TweetImpressionsModule, .ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .RelatedUsers {
