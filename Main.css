@@ -889,3 +889,25 @@ Pseudo ::after element
     background-color: #233446;
     border-radius: 0 0 6px 6px;
 }
+.DMLastReadMarker {
+    color: #FFF;
+    display: block;
+    font-size: 12px;
+    padding: 10px 0;
+    width: 100%;
+}
+.DMDivider {
+    background-color: transparent;
+    color: inherit;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+}
+.DMDivider:before {
+    border-bottom: 1px solid transparent;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
