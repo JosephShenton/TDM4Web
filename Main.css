@@ -709,7 +709,7 @@ input:focus, textarea:focus, div[contenteditable="true"]:focus, div.fake-focus[c
     line-height: 0;
     padding: 2px 0 4px 2px;
     pointer-events: none;
-    background: #222 !important;
+    background: transparent !important;
 }
 .EmojiBar-icon {
     background-color: #222;
@@ -753,7 +753,7 @@ body{
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0px 0px 1px #243447; 
+    -webkit-box-shadow: inset 0px 0px 1px #465669; 
     -webkit-border-radius: 8px;
     border-radius: 8px;
 }
@@ -761,13 +761,13 @@ body{
     -webkit-border-radius: 8px;
     border-radius: 8px;
     background: #243447; 
-    -webkit-box-shadow: inset 0px 0px 1px 243447; 
+    -webkit-box-shadow: inset 0px 0px 1px #465669; 
 }
 body::-webkit-scrollbar {
     width: 10px;
 }
 body::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0px 0px 1px #243447; 
+    -webkit-box-shadow: inset 0px 0px 1px #465669; 
     -webkit-border-radius: 8px;
     border-radius: 8px;
 }
@@ -775,5 +775,5 @@ body::-webkit-scrollbar-thumb {
     -webkit-border-radius: 8px;
     border-radius: 8px;
     background: #243447; 
-    -webkit-box-shadow: inset 0px 0px 1px 243447; 
+    -webkit-box-shadow: inset 0px 0px 1px #465669; 
 }
