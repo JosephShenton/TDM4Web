@@ -740,3 +740,40 @@ input:focus, textarea:focus, div[contenteditable="true"]:focus, div.fake-focus[c
     white-space: nowrap;
     z-index: 10;
 }
+body{
+    scrollbar-face-color: #367CD2;
+    scrollbar-shadow-color: #243447;
+    scrollbar-highlight-color: #FFFFFF;
+    scrollbar-3dlight-color: #FFFFFF;
+    scrollbar-darkshadow-color: #FFFFFF;
+    scrollbar-track-color: #FFFFFF;
+    scrollbar-arrow-color: #FFFFFF;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0px 0px 1px #243447; 
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    background: #243447; 
+    -webkit-box-shadow: inset 0px 0px 1px 243447; 
+}
+body::-webkit-scrollbar {
+    width: 10px;
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0px 0px 1px #243447; 
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+body::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    background: #243447; 
+    -webkit-box-shadow: inset 0px 0px 1px 243447; 
+}
