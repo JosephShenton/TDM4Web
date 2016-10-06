@@ -700,3 +700,43 @@ input:focus, textarea:focus, div[contenteditable="true"]:focus, div.fake-focus[c
 .message {
  background-color: #141c26;   
 }
+.EmojiBar {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    padding: 2px 0 4px 2px;
+    pointer-events: none;
+    background: #222 !important;
+}
+.EmojiBar-icon {
+    background-color: #222;
+    border-radius: 100% 0 0 100%;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 17px;
+    pointer-events: all;
+    position: relative;
+    z-index: 30;
+}
+.Icon--smiley {
+    color: #fff;
+}
+.EmojiBar-suggestions {
+    background-color: #222;
+    border-radius: 10px;
+    display: inline-block;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+    pointer-events: all;
+    -webkit-transform: translateX(120%);
+    transform: translateX(120%);
+    transition-delay: 350ms;
+    transition: -webkit-transform 500ms;
+    transition: transform 500ms;
+    white-space: nowrap;
+    z-index: 10;
+}
