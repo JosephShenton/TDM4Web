@@ -780,3 +780,112 @@ body::-webkit-scrollbar-thumb {
 .Icon--markAllRead {
 	color: #fff;	
 }
+.dropdown-caret .caret-inner {
+    top: 1px;
+    left: 1px;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #222 !important;
+    border-bottom-color: rgba(30,30,30,0.98) !important;
+}
+.DirectMessage-message {
+    border-radius: 12px !important;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 10px;
+    max-width: 60%;
+}
+.DirectMessage--received .DirectMessage-text {
+    color: #FBFFFF;
+}
+.DirectMessage--received .DirectMessage-message {
+    background-color: #324554 !important;
+}
+.DirectMessage-actions {
+    color: #FFF;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    visibility: hidden;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-bottom: 6px;
+}
+.DirectMessage--received .Caret:before {
+    border-color: #324554;
+}
+
+.DirectMessage .Caret:before, .DirectMessage .Caret:after {
+    top: auto!important;
+    bottom: 6px!important;
+}
+.Caret--left:before, .Caret--left.Caret--stroked:after {
+    border-left-width: 0!important;
+    border-bottom-color: transparent!important;
+    border-left-color: transparent!important;
+    border-top-color: transparent!important;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateX(-100%) translateY(-50%);
+    transform: translateX(-100%) translateY(-50%);
+}
+.Caret:before, .Caret--stroked:after {
+    border-style: solid;
+    border-width: 5px;
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0;
+    width: 0;
+}
+Pseudo ::after element
+.DirectMessage .Caret:after {
+    border-color: #fff;
+}
+.DirectMessage .Caret:before, .DirectMessage .Caret:after {
+    top: auto!important;
+    bottom: 6px!important;
+}
+.DMComposer-attachment {
+    border-bottom: 1px solid #1b2836 !important;
+    display: none;
+    padding: 8px;
+    position: relative;
+}
+.DMComposer-container {
+    background-color: #1b2836;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    min-height: 38px!important;
+    position: relative;
+    overflow: hidden;
+}
+.u-borderUserColorLighter {
+    border-color: #1b2836 !important;
+}
+.DirectMessage-media, .DirectMessage-card {
+    background: transparent;
+}
+.nav>li {
+    border: none;
+    /* color: transparent; */
+    background: transparent;
+}
+.modal-header {
+    background: #243447 !important;
+    border-bottom: 1px solid #233446 !important;
+    border-radius: 1px !important;
+    -moz-border-radius: 0 !important;
+}
+.dm-media-preview {
+    position: relative;
+    text-align: center;
+    background-color: #233446;
+    border-radius: 0 0 6px 6px;
+}
