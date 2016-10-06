@@ -9,7 +9,7 @@ body {
     color: #fff !important;
     background-color: #1b2836 !important;
     border: 1px solid #666;
-    border-radius: 0px !important;
+    border-radius: 6.5px !important;
     -moz-border-radius: 0;
 }
 #global-actions > li > a {
@@ -776,4 +776,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 8px;
     background: #243447; 
     -webkit-box-shadow: inset 0px 0px 1px #465669; 
+}
+.Icon--markAllRead {
+	color: #fff;	
 }
